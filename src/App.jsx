@@ -12,13 +12,12 @@ function App() {
  return (
    <>
 
-   <PasswordGenrator/>
 
    <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/bgchange" element={ <BgChanger /> } />
-      {/* <Route path="/passwordGenrator" element={<PasswordGenrator/>} /> */}
+      <Route path="/passwordGenrator" element={<PasswordGenrator/>} />
     </Routes>
    </BrowserRouter>
    </>
