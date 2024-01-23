@@ -13,6 +13,8 @@ const Home = () => {
     <div className='w-[80vw] mx-auto mt-20 flex gap-20 flex-wrap'>
     <Link to={"/bgchange"} className={buttonStyle}  > BgChanger </Link> 
     <Link to="/passwordGenrator" className={buttonStyle} > Password Genrator </Link>
+    <Link to="/currencySwapper" className={buttonStyle}> Currency Swapper </Link>
+    <Link to="/addRemoveContext" className={buttonStyle}> Context API {`(Bank project)`}</Link>
     </div>
     </div>
   )

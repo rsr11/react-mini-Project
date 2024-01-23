@@ -46,7 +46,8 @@ console.log(numberChecked);
 
   return (
     <>
-    <button className='px-3 py-2 border-black border-2 hover:bg-slate-200 transition-all delay-75 mb-5 rounded-md mt-10 ml-10' > <Link to={"/"}> Back home </Link> </button>
+    
+    <button className='px-3 py-2 border-black border-2 hover:bg-black hover:text-white transition-all delay-75 mb-5 rounded-md mt-10 ml-10' > <Link to={"/"}> Back home </Link> </button>
 
     <div className='bg-black h-[80vh] w-[80vw] flex flex-col items-center text-white mx-auto'>
       <h1 className='text-center text-xl font-bold pt-5'>Password Genrator</h1>
@@ -71,8 +72,6 @@ console.log(numberChecked);
       <label>Special Character</label>
         </div>
       </div>
-
-   
 
     </div>
     </>
